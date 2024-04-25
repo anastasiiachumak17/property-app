@@ -23,7 +23,7 @@ const AddObject = ({ onAddListing }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onAddListing(newListing); // Pass the new listing data to the parent component
+        onAddListing(newListing); 
         setNewListing({
             neighborhood: '',
             price: '',
