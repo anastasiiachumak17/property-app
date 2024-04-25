@@ -1,0 +1,52 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.header {
+  position: relative; /* Add positioning for the button */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header input[type="text"],
+.header input[type="number"],
+.header button {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.header button {
+  position: absolute;
+  bottom: 10px; /* Adjust positioning to place it in the bottom right corner */
+  right: 10px;
+}
+.nav {
+  float: left;
+  width: 20%;
+  background-color: #ddd;
+  padding: 15px;
+}
+.nav input[type="text"],
+.nav input[type="number"] {
+  width: calc(100% - 30px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+#map {
+  height: 800px;
+  width: 100%;
+}
+.mainsection {
+  display: flex;
+}
+
+
