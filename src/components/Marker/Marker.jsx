@@ -1,4 +1,4 @@
-// Marker.js
+
 import React from 'react';
 
 const Marker = ({ lat, lng, info }) => (
