@@ -1,4 +1,4 @@
-// Header.js
+
 import React, { useState } from 'react';
 import AddObject from '../AddObject/AddObject'; 
 import './Header.css';
