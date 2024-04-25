@@ -1,4 +1,4 @@
-// ListingItem.js
+
 import React from 'react';
 
 const ListingItem = ({ listing }) => {
